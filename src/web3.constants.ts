@@ -1,2 +1,2 @@
-export const WEB3_CLIENT = Symbol('WEB3_CLIENT');
-export const WEB3_MODULE_OPTIONS = Symbol('WEB3_MODULE_OPTIONS');
+export const WEB3_CLIENT = 'WEB3_CLIENT';
+export const WEB3_MODULE_OPTIONS = 'WEB3_MODULE_OPTIONS';

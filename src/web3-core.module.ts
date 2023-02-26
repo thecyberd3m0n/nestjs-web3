@@ -37,7 +37,7 @@ export class Web3CoreModule implements OnModuleDestroy {
         createClient(),
         { provide: WEB3_MODULE_OPTIONS, useValue: options },
       ],
-      exports: [Web3Service],
+      exports: [Web3Service, WEB3_MODULE_OPTIONS],
     };
   }
 
@@ -46,7 +46,7 @@ export class Web3CoreModule implements OnModuleDestroy {
       module: Web3CoreModule,
       imports: options.imports,
       providers: [createClient(), createAsyncClientOptions(options)],
-      exports: [Web3Service],
+      exports: [Web3Service, WEB3_MODULE_OPTIONS],
     };
   }
 
