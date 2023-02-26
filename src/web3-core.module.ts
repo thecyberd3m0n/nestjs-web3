@@ -18,7 +18,7 @@ import { Web3Service } from './web3.service';
 @Global()
 @Module({
   providers: [Web3Service],
-  exports: [Web3Service],
+  exports: [Web3Service, WEB3_MODULE_OPTIONS],
 })
 export class Web3CoreModule implements OnModuleDestroy {
   constructor(
