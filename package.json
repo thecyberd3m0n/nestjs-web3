@@ -1,15 +1,18 @@
 {
-  "name": "nest-web3",
-  "version": "1.1.1",
-  "author": {
+  "name": "mhdl-nest-web3",
+  "version": "1.1.2",
+  "authors": [{
     "name": "Maxim Markin",
     "email": "mxrkin@yandex.ru"
-  },
+  }, {
+    "name": "Dmitrij Rysanow",
+    "email": "thecyberd3m0n@gmail.com"
+  }],
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/owl1n/nestjs-web3.git"
+    "url": "https://github.com/thecyberd3m0n/nestjs-web3"
   },
   "scripts": {
     "build": "rimraf dist && tsc && npm run build:index",
