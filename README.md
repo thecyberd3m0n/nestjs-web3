@@ -1,6 +1,6 @@
 # Web3 module for NestJS that allow to work with blockhains
 
-This is first release of this module. Readme under construction but here are a couple of tips
+Fork of owl1n module. The difference is that you can access Web3ModuleOptions symbols to inject them into your services.
 
 ## Installation
 
